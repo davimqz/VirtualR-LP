@@ -1,9 +1,10 @@
 import './index.css'
+import Navbar from './components/NavBar'
 
 const App = () => {
   return (
     <>
-      <h1 class="text-3xl font-bold underline justify-center text-center p-6">Hello world!</h1>
+      <Navbar></Navbar>
     </>
   )
 }
